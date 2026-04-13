@@ -1,0 +1,13 @@
+{
+  "name": "docx-editor-local",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local MCP server for reading and replacing text in DOCX files via Word automation.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0"
+  }
+}
